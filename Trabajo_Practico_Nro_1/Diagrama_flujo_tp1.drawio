@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" modified="2024-04-28T00:57:25.986Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="6la-a_DiClo8Hk6rxtg7" version="24.3.1" type="device">
+  <diagram name="Page-1" id="REML6CYICVTIesJEjsAi">
+    <mxGraphModel dx="1434" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x8L5wZlbggrZEXKjvLih-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-2" target="x8L5wZlbggrZEXKjvLih-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="105" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-4" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="105" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-5" target="x8L5wZlbggrZEXKjvLih-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-5" value="sumar valor1 y valor2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-6" target="x8L5wZlbggrZEXKjvLih-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-6" value="Ingreso valor1&lt;br&gt;Ingreso valor2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-7" target="x8L5wZlbggrZEXKjvLih-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-7" value="Imprimir la suma" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-12" target="x8L5wZlbggrZEXKjvLih-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-12" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="610" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-16" target="x8L5wZlbggrZEXKjvLih-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-16" value="perimetro = lado1 + lado2 + lado3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-17" target="x8L5wZlbggrZEXKjvLih-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-17" value="&lt;div&gt;Ingresar lado1&lt;/div&gt;&lt;div&gt;Ingresar lado2&lt;/div&gt;&lt;div&gt;Ingresar lado3&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-18" value="Imprimir perimetro" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-23" target="x8L5wZlbggrZEXKjvLih-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-23" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-25" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-26" target="x8L5wZlbggrZEXKjvLih-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-26" value="sueldo = valorHora * horaTrabajada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="380" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-27" target="x8L5wZlbggrZEXKjvLih-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-27" value="&lt;div&gt;Ingresar el valor de la hora&lt;/div&gt;&lt;div&gt;Ingresar la cantidad de horas trabajadas&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="260" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x8L5wZlbggrZEXKjvLih-28" target="x8L5wZlbggrZEXKjvLih-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-28" value="Imprimir el sueldo" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="557.5" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Ejercicio Nro 1&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Suma de dos numeros&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Ejercicio Nro 4 &lt;br&gt;&lt;/h1&gt;&lt;p&gt;calcular el perimetro de un triangulo&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="x8L5wZlbggrZEXKjvLih-36" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Ejercicio Nro 8 &lt;br&gt;&lt;/h1&gt;Calculo de sueldo en funcion de valor por hora y las horas ttrabajadas" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="40" width="180" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

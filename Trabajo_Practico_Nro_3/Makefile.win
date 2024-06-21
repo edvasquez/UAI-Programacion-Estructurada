@@ -1,0 +1,45 @@
+# Project: Estructuras_repeticion_exactos
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = Ejercicio_1.o Main.o Ejercicio_2.o Ejercicio_3.o Ejercicio_4.o Ejercicio_5.o $(RES)
+LINKOBJ  = Ejercicio_1.o Main.o Ejercicio_2.o Ejercicio_3.o Ejercicio_4.o Ejercicio_5.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib"  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = Estructuras_repeticion_exactos.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Estructuras_repeticion_exactos.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Estructuras_repeticion_exactos.exe" $(LIBS)
+
+Ejercicio_1.o: Ejercicio_1.c
+	$(CPP) -c Ejercicio_1.c -o Ejercicio_1.o $(CXXFLAGS)
+
+Main.o: Main.c
+	$(CPP) -c Main.c -o Main.o $(CXXFLAGS)
+
+Ejercicio_2.o: Ejercicio_2.c
+	$(CPP) -c Ejercicio_2.c -o Ejercicio_2.o $(CXXFLAGS)
+
+Ejercicio_3.o: Ejercicio_3.c
+	$(CPP) -c Ejercicio_3.c -o Ejercicio_3.o $(CXXFLAGS)
+
+Ejercicio_4.o: Ejercicio_4.c
+	$(CPP) -c Ejercicio_4.c -o Ejercicio_4.o $(CXXFLAGS)
+
+Ejercicio_5.o: Ejercicio_5.c
+	$(CPP) -c Ejercicio_5.c -o Ejercicio_5.o $(CXXFLAGS)
