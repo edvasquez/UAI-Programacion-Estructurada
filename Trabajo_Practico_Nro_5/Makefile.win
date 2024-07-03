@@ -5,8 +5,8 @@ CPP  = g++.exe
 CC   = gcc.exe
 WINDRES = windres.exe
 RES  = 
-OBJ  = Main.o Ejercicio_1.o $(RES)
-LINKOBJ  = Main.o Ejercicio_1.o $(RES)
+OBJ  = Main.o Ejercicio_1.o Ejercicio_2.o Ejercicio_3.o Ejercicio_4.o Ejercicio_5a.o Ejercicio_5b.o Ejercicio_6.o Ejercicio_7.o $(RES)
+LINKOBJ  = Main.o Ejercicio_1.o Ejercicio_2.o Ejercicio_3.o Ejercicio_4.o Ejercicio_5a.o Ejercicio_5b.o Ejercicio_6.o Ejercicio_7.o $(RES)
 LIBS =  -L"C:/Dev-Cpp/lib"  
 INCS =  -I"C:/Dev-Cpp/include" 
 CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
@@ -31,3 +31,24 @@ Main.o: Main.c
 
 Ejercicio_1.o: Ejercicio_1.c
 	$(CPP) -c Ejercicio_1.c -o Ejercicio_1.o $(CXXFLAGS)
+
+Ejercicio_2.o: Ejercicio_2.c
+	$(CPP) -c Ejercicio_2.c -o Ejercicio_2.o $(CXXFLAGS)
+
+Ejercicio_3.o: Ejercicio_3.c
+	$(CPP) -c Ejercicio_3.c -o Ejercicio_3.o $(CXXFLAGS)
+
+Ejercicio_4.o: Ejercicio_4.c
+	$(CPP) -c Ejercicio_4.c -o Ejercicio_4.o $(CXXFLAGS)
+
+Ejercicio_5a.o: Ejercicio_5a.c
+	$(CPP) -c Ejercicio_5a.c -o Ejercicio_5a.o $(CXXFLAGS)
+
+Ejercicio_5b.o: Ejercicio_5b.c
+	$(CPP) -c Ejercicio_5b.c -o Ejercicio_5b.o $(CXXFLAGS)
+
+Ejercicio_6.o: Ejercicio_6.c
+	$(CPP) -c Ejercicio_6.c -o Ejercicio_6.o $(CXXFLAGS)
+
+Ejercicio_7.o: Ejercicio_7.c
+	$(CPP) -c Ejercicio_7.c -o Ejercicio_7.o $(CXXFLAGS)

@@ -10,3 +10,4 @@ void ejercicioNro4(void);
 void ejercicioNro5(void);
 void ejercicioNro6(void);
 void ejercicioNro7(void);
+void ejercicioNro8(void);

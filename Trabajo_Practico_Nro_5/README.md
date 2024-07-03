@@ -1,6 +1,6 @@
-# Estructuras de Repeticion Inexactas, Maximos y Minimos
+# Estructuras Estaticas
 
-## Trabajo practico Nro 4
+## Trabajo Practico Nro 5
 
 
 - Para generar el ejecutable se debe de correr el comando "make" desde el directorio donde se encuentran los archivos .c

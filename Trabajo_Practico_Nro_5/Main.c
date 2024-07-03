@@ -8,16 +8,18 @@
 #include <stdlib.h>
 #include "Ejercicios.h"
 
-enum menu{Salida, Inicio, Fin = 7};
+#define LENGTH 8
+
+enum menu{Salida, Inicio, Fin = 8};
 
 int main(int arg, char** argc)
 {
     //Declaracion de variables
     int numero = 1;
-    void (*ptr_ejercicio[7])(void) = {ejercicioNro1};
-    //, ejercicioNro2, ejercicioNro3, 
-    //                            ejercicioNro4, ejercicioNro5, ejercicioNro6, ejercicioNro7
-    //                           };
+    void (*ptr_ejercicio[LENGTH])(void) = {ejercicioNro1, ejercicioNro2,
+                                     ejercicioNro3, ejercicioNro4,
+                                     ejercicioNro5, ejercicioNro6,
+                                     ejercicioNro7, ejercicioNro8};
                              
     system("cls");
     system("color 3f");

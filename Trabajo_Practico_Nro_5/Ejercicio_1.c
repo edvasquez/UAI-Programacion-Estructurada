@@ -4,24 +4,21 @@
 void ejercicioNro1()
 {
     //Declaracion de variables
-
+    int length = 0;
+    int list[5] = {10,100,94,84,11};
 
     //Titulo
     system("color 3f");
-    printf("#######################################################\n");
-    printf("# Ingresar N sueldos e indicar su suma y su promedio, #\n\n");
-    printf("# imprimir resultados                                 #\n");
-    printf("#                                                     #\n");
-    printf("# Los montos negativos se tomaran como positivos      #\n");
-    printf("#######################################################\n\n");
+    printf("########################################################\n");
+    printf("# Cree un vector de enteros de 5 posiciones,           #\n");
+    printf("# inicializándolo con los valores del 10,100,94,84,11. #\n");
+    printf("########################################################\n\n");
 
-    printf("Para finalizar la carga ingrese un monto no numerico.\n\n");
-
-    //Ingreso de datos
-
-
+    length = sizeof(list) / sizeof(list[0]);
     //salida de resultados
     printf("\n\n");
-    printf("Total de sueldos ingresados: %0.2f \n");
-    printf("Promedio de los sueldos ingresados: %0.2f \n");
+    for(int i = 0; i < length; i++){
+      printf("Elemento[%d]: %d \n", i+1, list[i]);
+    };
+    printf("\n");
 }
